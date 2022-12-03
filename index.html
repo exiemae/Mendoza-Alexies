@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Consolas, monaco, monospace;
+  color: black;
+  padding: 20px;
+    background-image: url('bg.gif');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: Consolas, monaco, monospace;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+p {
+    padding: 10px;
+    font-family: Consolas, monaco, monospace;
+    font-size: 1.3em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.column2 {
+    float: left;
+    width: 48.5%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.column3 {
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#photos">Photos</a>
+  <a href="#education">Education</a>
+</div>
+
+<div class="main">
+  <h2>Welcome to My Personal Website</h2>
+  <div class="row2" id="about">
+  <div class="column2">
+    <img src="7.jpg" style="width: 420px;height: 570px;" alt="Avatar">
+    <h3>Hi! I'm Exie </h3>
+  </div>
+
+    <div class="column2">
+    <h3>Hi my name is Alexies Mae H. Mendoza I'm 20 years old and i live in Tulo Batangas City.My hobbies are reading books, dancing in tiktok and watching Filipino movies. My skills are i know how to communicate to others and i can solve math sometimes that's all.</h3>
+  </div>
+
+</div>
+
+<br>
+<hr>
+<br>
+
+
+  <div class="row3" id="photos">
+    <h2>Exie's Photos</h2>
+
+  <div class="column3">
+    <img src="1.jpg" style="width: 400px;height: 570px;" alt="Avatar">
+  </div>
+ <div class="column3">
+    <img src="2.jpg" style="width: 400px;height: 570px;" alt="Avatar">
+  </div>
+ <div class="column3">
+    <img src="3.jpg" style="width: 400px;height: 570px;" alt="Avatar">
+  </div>
+</div>
+
+ 
+
+<br>
+<hr>
+<br>  
+
+  <div class="row3" id="education">
+    <h2>Exie's Educational Background</h2>
+  <div class="column3">
+    <img src="s4.jpg" style="width: 500px;height: 300px;" alt="Avatar">
+    <h6>Batangas State University<br>2020 - Present </h6>
+  </div>
+
+    <div class="column3">
+    <img src="s2.jpg" style="width: 500px;height: 300px;" alt="Avatar">
+    <h6>Paharang National High School<br> 2013 - 2020</h6>
+  </div>
+
+    <div class="column3">
+     <img src="s1.jpg" style="width: 500px;height: 300px;" alt="Avatar">
+     <h6>Tulo II Elementary School<br>2007 - 2013</h6>
+
+  </div>
+</div>
+
+
+
+</div>
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jul 2018 02:09:39 GMT -->
+</html> 
